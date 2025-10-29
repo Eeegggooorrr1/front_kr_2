@@ -2,4 +2,4 @@
 ## Проект
 Этот репозиторий является каркасом для будущего веб-приложения.
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://eeegggooorrr1.github.io/front_proj_2/)
+- [Публичная страница на GitHub Pages](https://eeegggooorrr1.github.io/front_kr_2/)
