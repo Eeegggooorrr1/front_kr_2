@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Портфолио</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__brand d-flex align-items-center">
+        <img src="img/logo.png" class="header__logo me-2" />
+        <div>
+          <div class="fw-semibold">Аникеев Егор</div>
+          <div class="text-muted small">Студент</div>
+        </div>                                                                                              
+      </div>                                                                 
+                                                                                         
+      <nav class="nav">
+        <a class="btn btn-sm btn-outline-secondary" href="index.html">Главная</a>
+        <a class="btn btn-sm btn-outline-secondary" href="projects.html">Проекты</a>
+        <a class="btn btn-sm btn-outline-secondary" href="diary.html">Дневник</a>
+        <a class="btn btn-sm btn-outline-secondary" href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="profile">
+      <div class="profile__top">
+        <div class="profile__photo" role="img">
+          <img src="img/logo.png" class="img-fluid profile__photo-img" />
+        </div>
+
+        <div class="profile__info">
+          <div class="profile__name">Привет! Я студент</div>
+          <div class="profile__text">Группа ЭФБ0-03-24</div>
+          <div class="profile__text">Увлекаюсь веб-разработкой</div>
+          <a class="btn btn-primary btn-resume" href="#" download>Скачать резюме</a>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-6">
+          <section class="skills">
+            <h3 id="skills-title" class="skills__title">Мои навыки</h3>
+
+            <div class="skills__item">
+              <div class="skills__name">HTML/CSS</div>
+              <div class="flex-grow-1">
+                <div class="progress" style="height:12px;">
+                  <div class="progress-bar" role="progressbar" style="width:90%"></div>
+                </div>
+                <div class="small text-muted mt-1">90%</div>
+              </div>
+            </div>
+
+            <div class="skills__item">
+              <div class="skills__name">JavaScript</div>
+              <div class="flex-grow-1">
+                <div class="progress" style="height:12px;">
+                  <div class="progress-bar" role="progressbar" style="width:80%" ></div>
+                </div>
+                <div class="small text-muted mt-1">80%</div>
+              </div>
+            </div>
+
+            <div class="skills__item">
+              <div class="skills__name">Bootstrap</div>
+              <div class="flex-grow-1">
+                <div class="progress" style="height:12px;">
+                  <div class="progress-bar" role="progressbar" style="width:85%" ></div>
+                </div>
+                <div class="small text-muted mt-1">85%</div>
+              </div>
+            </div>
+
+            <div class="skills__item">
+              <div class="skills__name">React</div>
+              <div class="flex-grow-1">
+                <div class="progress" style="height:12px;">
+                  <div class="progress-bar" role="progressbar" style="width:60%"></div>
+                </div>
+                <div class="small text-muted mt-1">60%</div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-lg-6">
+          <section class="projects">
+            <h3 id="projects-title" class="fw-semibold text-center mb-3">Лучшие проекты</h3>
+
+            <div class="projects__grid">
+              <article class="project-card card">
+                <img src="img/proj1.webp" class="project-card__img card-img-top w-100" />
+                <div class="card-body">
+                  <div class="project-card__title">Личный сайт</div>
+                  <div class="project-card__tech text-muted">HTML, CSS</div>
+                </div>
+              </article>
+
+              <article class="project-card card">
+                <img src="img/proj2.png" class="project-card__img card-img-top w-100" />
+                <div class="card-body">
+                  <div class="project-card__title">Todo-приложение</div>
+                  <div class="project-card__tech text-muted">JavaScript</div>
+                </div>
+              </article>
+
+              <article class="project-card card">
+                <img src="img/proj3.png" class="project-card__img card-img-top w-100" />
+                <div class="card-body">
+                  <div class="project-card__title">Интернет-магазин</div>
+                  <div class="project-card__tech text-muted">React</div>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <div>© 2025 Контакты: +7 (900) 000-00-00</div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
